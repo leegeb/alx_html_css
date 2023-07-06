@@ -1,0 +1,121 @@
+body
+{
+border:3px solid black;
+height:100vh;
+padding:10px;
+}
+
+header
+{
+border: 2px solid black;
+height:70px;
+padding:5px;
+}
+
+header div
+{
+    border:1px solid black;
+    /*height:inherit;*/
+    display:flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.company-logo
+{
+border:1px solid red;
+width:250px;
+border-radius: 5px;
+}
+
+.company-logo a
+{
+    border:1px solid green;
+    width:inherit;
+    display:flex;
+    justify-content: center;
+}
+
+#nav-links
+{
+    width:400px;
+    padding:0;
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+
+#nav-links a
+{
+    border:1px solid red;
+    width:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main
+{
+border:2px solid black;
+height:inherit;
+margin-top: 10px;
+padding:5px ;
+}
+
+main section
+{
+    border:1px solid black;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section div
+{
+    border:1p solid black;
+    width:20%;
+    padding:0;
+    height:150px
+}
+
+#hero-section div h1
+{
+    border:1p solid lightskyblue;
+    margin:0
+    height:50px;
+    width:250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#hero-section div p
+{
+    border:1px solid purple;
+    margin: 0;
+}
+
+#hero-section div button
+{
+    border:1px solid orange;
+}
+
+#third-section div
+{
+    border: 1px solid blue;
+    height:50px;
+    width:250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-section div p
+{
+    float:left;
+    border:1px solid lime;
+    width:150px;
+    height:50px;
+}
