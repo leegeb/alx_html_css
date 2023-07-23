@@ -1,0 +1,529 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    background-image: url('./images/Object.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+.logo-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 80px 0 80px;
+}
+
+.company-logo img {
+    width: 167.02px;
+
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.Get-schooled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.Get-schooled h1 {
+    font-size: 120px;
+    line-height: 151px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    margin: 152px 0 0 0;
+    color: white;
+}
+
+.sub-schools {
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+    color: white;
+}
+
+.sub-schools p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 42px 0;
+}
+
+.reg-button {
+
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 74.5px;
+    background-color: #C271FF;
+    border: none;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #C271FF;
+    text-align: center;
+}
+
+.topic-pro {
+    text-align: center
+}
+
+
+.learn-msg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 168px;
+}
+
+.learn-msg h2 {
+    font-size: 32px;
+    font-weight: 350;
+    color: white;
+}
+
+.winners {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 87px;
+
+}
+
+.winners h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.winners p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 98px 0;
+}
+
+.myQuotes {
+    background-color: #C271FF;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.pop-color {
+    color: #C271FF;
+}
+
+.quote-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    margin: 0 auto;
+    color: white;
+}
+
+.quote-one img {
+    width: 160px;
+    height: 160px;
+    margin: 108px 0;
+
+}
+
+.quote-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-two blockquote {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.quote-two h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 33px;
+    margin: 0;
+}
+
+.quote-two p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.popular-videos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 105px 87px 105px;
+}
+
+.popular-videos h2 {
+    text-align: center;
+    color: #071629;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 87px;
+    margin-bottom: 75px;
+}
+
+
+.popular-videos span {
+    color: #C271FF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video img div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.video h3 {
+    color: #071629;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 7.6px;
+    margin-bottom: 7.6px;
+    padding: 0 10px;
+}
+
+.video p {
+    margin-top: 0;
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+.play-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.play-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pm-small-image img {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5%;
+    margin-top: 13.4px;
+    margin-bottom: 13.4px;
+}
+
+.pm-small-image h3 {
+    color: #C271FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    padding-left: 16px;
+}
+
+.rated-by h3 {
+    width: 86;
+    height: 27;
+
+}
+
+.time {
+    width: 34px;
+    height: 27px;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 107px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rating .giveStar {
+    align-items: center;
+}
+
+.rating .stars img {
+    margin: 0;
+}
+
+.rating .giveStar {
+    color: #C271FF;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.stars img {
+    text-align: left;
+}
+
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("images/background-membership.png");
+    background-repeat: no-repeat;
+    background-color: #071629;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.membership h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 70px;
+    margin-bottom: 58px;
+}
+
+.membership span {
+    color: #C271FF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.body-membership-div {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.body-membership-div h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.body-membership-div p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 85px;
+}
+
+.body-membership-divimg {
+    margin-bottom: 27px;
+}
+
+.membership button {
+    border: none;
+    border-radius: 22px;
+    background: #C271FF;
+    width: 172px;
+    height: 44px;
+    flex-shrink: 0;
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 52px;
+    cursor: pointer;
+    transition: opacity 300ms, transform 400ms, box-shadow 400ms;
+}
+
+.membership button:hover {
+    opacity: 0.7;
+}
+
+.membership button:active {
+    transform: scale(0.97);
+    box-shadow: 5px 5px 10px rgba(97, 51, 133, 0.6);
+}
+
+/* .time {
+    font-size: small;
+} */
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FAQ h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.Block-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Block-one h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.Block-one p {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(7, 22, 41, 0.5016);
+    text-align: start;
+}
+
+.Block-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 84px;
+}
+
+.Block-one h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.Block-one p {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(7, 22, 41, 0.5016);
+    text-align: start;
+}
+
+.Block-two p {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(7, 22, 41, 0.5016);
+    text-align: start;
+}
+
+.Block-two h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: start;
+}
+
+footer {
+    background-color: #071629;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sub-footer1 {
+    margin-right: 20px;
+}
+
+.sub-footer2 a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.sub-footer2 a:last-child {
+    margin-right: 0;
+}
+
+.sub-footer2 img {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.footer p div {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
